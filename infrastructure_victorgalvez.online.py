@@ -16,9 +16,9 @@ with Diagram("ARQUITECTURA APLICACION", show=False, filename="ARQUITECTURA_APLIC
     with Cluster("ARQUITECTURA APLICACION"):
 
         # download the icon image file
-        chrome_url = "https://cdn.icon-icons.com/icons2/1365/PNG/512/browser_89380.png"
-        chrome_icon = "chrome.png"
-        urlretrieve(chrome_url, chrome_icon)
+        navegador_url = "https://cdn.icon-icons.com/icons2/1365/PNG/512/browser_89380.png"
+        navegador_icon = "chrome.png"
+        urlretrieve(navegador_url, navegador_icon)
         
 
         # download the icon image file
@@ -31,7 +31,7 @@ with Diagram("ARQUITECTURA APLICACION", show=False, filename="ARQUITECTURA_APLIC
 
 
         fast = FastAPI("FastAPI")
-        chrome = Custom("HTTP Request", chrome_icon)
+        navegador = Custom("HTTP Request", navegador_icon)
         PostgreSQL_server = PostgreSQL("PostgreSQL")
         Android_device = Android("Android")
         IOS_device = IOS("IOS")
@@ -44,7 +44,7 @@ with Diagram("ARQUITECTURA APLICACION", show=False, filename="ARQUITECTURA_APLIC
         
         fast >> Flutter_server 
         fast >> Vue_app
-        chrome >> fast
+        navegador >> fast
 
         
 
