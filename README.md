@@ -1,37 +1,39 @@
 # Documentation_IT
 
-## Descripción
+## Description
 
-Este repositorio contiene documentación relacionada con la infraestructura de TI, diseñada para facilitar el uso y la creación de diagramas en proyectos de infraestructura. Está orientado a proporcionar recursos de documentación que pueden ser utilizados en diversos entornos de desarrollo e implementación.
+This repository contains documentation related to IT infrastructure, designed to facilitate the use and creation of diagrams in infrastructure projects. It is aimed at providing documentation resources that can be used in various development and deployment environments.
 
-## Licencia
+## License
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-## Instalación
+## Installation
 
-### Usando pip
+### Using pip
 
-Si prefieres usar `pip`, puedes instalar las dependencias necesarias con el siguiente comando:
+If you prefer to use `pip`, you can install the necessary dependencies with the following command:
 
 ```bash
 $ pip install diagrams
-
 ```
 
+### Using pipenv
 
-### Usando pipenv
-Si utilizas pipenv para gestionar tus entornos virtuales, puedes instalar las dependencias de esta manera:
+If you use pipenv to manage your virtual environments, you can install the dependencies like this:
 
 ```bash
 $ pipenv install diagrams
 ```
 
-Usando Poetry
-Si prefieres usar Poetry para gestionar tus entornos virtuales, puedes instalar las dependencias de esta manera:
+### Using Poetry
+
+If you prefer to use Poetry to manage your virtual environments, you can install the dependencies like this:
 
 ```bash
 $ poetry add diagrams
-``` 
+```
 
-![Arquitectura de la Aplicación](ARQUITECTURA_APLICACION.png)
+## Application Architecture Diagram
+
+![Application Architecture](aplicacion.png)
